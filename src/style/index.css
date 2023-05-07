@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(225, 219, 229);
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(24, 29, 32);
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(12, 66, 107);
+}
+
+pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.layout-linha {
+    display: flex;
+}
+
+.layout-coluna {
+    flex: 50%;
+    outline: dashed 1px rgb(19, 19, 20);
+    padding: 0px 10px 10px 10px;
+    background-color: white;
+}

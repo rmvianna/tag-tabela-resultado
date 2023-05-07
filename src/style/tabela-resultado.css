@@ -1,0 +1,79 @@
+/*CSS oficial*/
+.tabela-resultado thead th,
+.tabela-resultado thead td {
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  border: 0px;
+  padding: 4px 8px;
+}
+
+.tabela-resultado thead th {
+  background-color: #0066B3;
+  color: #eee;
+}
+
+.tabela-resultado tbody tr:nth-child(odd) {
+  background-color: #F4F4F6;
+  color: #333;
+}
+
+.tabela-resultado tbody tr:nth-child(even) {
+  background-color: #fff;
+  color: #444;
+}
+
+.tabela-resultado {
+  border: 0px;
+}
+
+@media screen and (max-width: 320px) {
+  .tabela-resultado td, .tabela-resultado th {
+    padding: 2px 4px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 640px) {
+  .tabela-resultado td, .tabela-resultado th {
+    padding: 4px 6px;
+  }
+}
+
+/*CSS teste*/
+.tabela-resultado-anterior thead th,
+.tabela-resultado-anterior thead td {
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  border: 0px;
+  padding: 4px 8px;
+}
+
+.tabela-resultado-anterior thead th {
+  background-color: #000;
+  color: #eee;
+}
+
+.tabela-resultado-anterior tbody tr:nth-child(odd) {
+  background-color: #eee;
+  color: #333;
+}
+
+.tabela-resultado-anterior tbody tr:nth-child(even) {
+  background-color: #ccc;
+  color: #444;
+}
+
+.tabela-resultado-anterior {
+  border: 0px;
+}
+
+@media screen and (max-width: 320px) {
+  .tabela-resultado-anterior td, .tabela-resultado-anterior th {
+    padding: 2px 4px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 640px) {
+  .tabela-resultado-anterior td, .tabela-resultado-anterior th {
+    padding: 4px 6px;
+  }
+}
